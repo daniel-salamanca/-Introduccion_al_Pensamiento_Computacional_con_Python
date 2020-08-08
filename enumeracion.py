@@ -12,5 +12,5 @@ def run():
         print(f'{objetivo} no tiene una raiz cuadrada esacta')
 
 
-if __name__ == "__main__":
+if __name   __ == "__main__":
     run()
