@@ -6,7 +6,7 @@ def run():
 
 
     while abs(respuesta**2  -objetivo) >= epsilon and respuesta <= objetivo :
-        print(abs(respuesta**2  -objetivo), respuesta)
+        print(abs(respuesta**2  -objetivo), respuesta )
         respuesta += paso
     
     if abs(respuesta**2  -objetivo) >= epsilon:
@@ -16,4 +16,4 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    run() 
